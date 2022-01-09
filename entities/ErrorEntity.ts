@@ -1,0 +1,15 @@
+export enum ErrorEntity {
+  SITEMAP_NOT_VALID = "sitemap/update/not-valid",
+  SITEMAP_NOT_FOUND = "sitemap/not-found",
+  SITEMAP_INVALID = "sitemap/invalid",
+  CREDENTIALS_NOT_FOUND = "credentials/not-found",
+  WEBSITE_SEARCH_CONSOLE_DOMAIN_IS_NULL = "website/search-console-domain/is-null",
+  GOOGLE_CREDENTIALS_EXPIRED = "google/credentials/expired",
+  GOOGLE_UNKNOWN_ERROR = "google/unknown-error",
+  GOOGLE_SCOPE_NOT_FOUND = "google/scope-not-found",
+  GOOGLE_REFRESH_TOKEN_ERROR = "google/refresh-token-error",
+  WEBSITE_NOT_FOUND = "website/not-found",
+  UNKNOWN_ERROR = "global/unknown-error",
+  USER_NOT_FOUND = "user/not-found",
+  USER_NOT_AUTHENTICATED = "user/not-authenticated",
+}
