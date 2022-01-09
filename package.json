@@ -1,11 +1,16 @@
 {
   "name": "interfaces.foudroyer.com",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
-  "main": "interfaces.ts",
+  "main": "dist/interfaces.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist && tsc"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Kevin Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "tsc": "^2.0.3",
+    "typescript": "^4.5.4"
+  }
 }
