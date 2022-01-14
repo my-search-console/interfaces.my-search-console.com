@@ -16,3 +16,4 @@ __exportStar(require("./entities/PageEntity"), exports);
 __exportStar(require("./entities/UserEntity"), exports);
 __exportStar(require("./entities/UserToWebsiteEntity"), exports);
 __exportStar(require("./entities/WebsiteEntity"), exports);
+__exportStar(require("./entities/WebsiteGoogleCloudApiKeyEntity"), exports);
