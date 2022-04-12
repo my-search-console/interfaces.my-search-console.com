@@ -2,7 +2,7 @@
   "name": "@foudroyer/interfaces",
   "version": "0.0.0-development",
   "description": "",
-  "private": "false",
+  "private": false,
   "main": "dist/interfaces.js",
   "scripts": {
     "build": "rimraf dist && tsc"
