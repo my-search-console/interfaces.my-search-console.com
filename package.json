@@ -7,6 +7,10 @@
   "scripts": {
     "build": "rimraf dist && tsc"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "author": "Kevin Marques",
   "license": "MIT",
   "devDependencies": {
