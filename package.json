@@ -4,8 +4,7 @@
   "description": "",
   "main": "dist/interfaces.js",
   "scripts": {
-    "build": "rimraf dist && tsc",
-    "semantic-release": "semantic-release"
+    "build": "rimraf dist && tsc"
   },
   "author": "Kevin Marques",
   "license": "MIT",
