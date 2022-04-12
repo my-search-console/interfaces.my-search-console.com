@@ -15,5 +15,10 @@ export declare enum ErrorEntity {
     WEBSITE_NOT_FOUND = "website/not-found",
     UNKNOWN_ERROR = "global/unknown-error",
     USER_NOT_FOUND = "user/not-found",
-    USER_NOT_AUTHENTICATED = "user/not-authenticated"
+    USER_NOT_AUTHENTICATED = "user/not-authenticated",
+    BUILDER_PLANS_NOT_EXISTS = "builder/plans/not-exists",
+    BUILDER_PLANS_EXPIRED = "builder/plans/expired",
+    BUILDER_LICENSE_EXPIRED = "builder/license/expired",
+    BUILDER_LICENSE_NOT_FOUND = "builder/license/not-found",
+    BUILDER_LICENSE_BAD_DOMAIN = "builder/license/bad-domain"
 }
