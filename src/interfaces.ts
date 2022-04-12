@@ -4,4 +4,6 @@ export * from "./entities/PageEntity";
 export * from "./entities/UserEntity";
 export * from "./entities/UserToWebsiteEntity";
 export * from "./entities/WebsiteEntity";
-export * from "./entities/WebsiteGoogleCloudApiKeyEntity";
+export * from "./entities/BuilderEarlyAccessEntity";
+export * from "./entities/BuilderWebsiteEntity";
+export * from "./entities/BuilderPlanEntity";

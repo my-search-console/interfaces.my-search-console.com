@@ -20,4 +20,6 @@ __exportStar(require("./entities/PageEntity"), exports);
 __exportStar(require("./entities/UserEntity"), exports);
 __exportStar(require("./entities/UserToWebsiteEntity"), exports);
 __exportStar(require("./entities/WebsiteEntity"), exports);
-__exportStar(require("./entities/WebsiteGoogleCloudApiKeyEntity"), exports);
+__exportStar(require("./entities/BuilderEarlyAccessEntity"), exports);
+__exportStar(require("./entities/BuilderWebsiteEntity"), exports);
+__exportStar(require("./entities/BuilderPlanEntity"), exports);
