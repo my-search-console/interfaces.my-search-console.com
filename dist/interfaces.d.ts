@@ -7,3 +7,4 @@ export * from "./entities/WebsiteEntity";
 export * from "./entities/BuilderEarlyAccessEntity";
 export * from "./entities/BuilderWebsiteEntity";
 export * from "./entities/BuilderPlanEntity";
+export * from "./entities/WebsiteGoogleCloudApiKeyEntity";
