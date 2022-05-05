@@ -25,4 +25,5 @@ var ErrorEntity;
     ErrorEntity["BUILDER_LICENSE_EXPIRED"] = "builder/license/expired";
     ErrorEntity["BUILDER_LICENSE_NOT_FOUND"] = "builder/license/not-found";
     ErrorEntity["BUILDER_LICENSE_BAD_DOMAIN"] = "builder/license/bad-domain";
+    ErrorEntity["BUILDER_UPDATE_DOMAIN_NOT_AUTHORIZED"] = "builder/websites/update-domain-not-authorized";
 })(ErrorEntity = exports.ErrorEntity || (exports.ErrorEntity = {}));

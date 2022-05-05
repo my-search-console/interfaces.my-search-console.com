@@ -20,5 +20,6 @@ export declare enum ErrorEntity {
     BUILDER_PLANS_EXPIRED = "builder/plans/expired",
     BUILDER_LICENSE_EXPIRED = "builder/license/expired",
     BUILDER_LICENSE_NOT_FOUND = "builder/license/not-found",
-    BUILDER_LICENSE_BAD_DOMAIN = "builder/license/bad-domain"
+    BUILDER_LICENSE_BAD_DOMAIN = "builder/license/bad-domain",
+    BUILDER_UPDATE_DOMAIN_NOT_AUTHORIZED = "builder/websites/update-domain-not-authorized"
 }

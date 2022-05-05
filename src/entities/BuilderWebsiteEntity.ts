@@ -1,5 +1,5 @@
 export enum BuilderWebsiteTheme {
-  PURITY = 'purity',
+  PURITY = "purity",
 }
 
 export interface BuilderWebsiteEntity {
@@ -7,4 +7,5 @@ export interface BuilderWebsiteEntity {
   domain: string;
   fk_user_id: string | null;
   theme: BuilderWebsiteTheme;
+  license: string;
 }
