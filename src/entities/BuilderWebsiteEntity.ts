@@ -7,5 +7,4 @@ export interface BuilderWebsiteEntity {
   domain: string;
   fk_user_id: string | null;
   theme: BuilderWebsiteTheme;
-  license: string;
 }
