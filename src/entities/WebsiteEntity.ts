@@ -6,4 +6,6 @@ export class WebsiteEntity {
   image: string;
   sitemap: string | null;
   already_activated: boolean;
+  index_now_key: string | null;
+  index_now_installed: boolean;
 }
