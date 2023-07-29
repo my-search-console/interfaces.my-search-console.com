@@ -25,4 +25,10 @@ export enum ErrorEntity {
   BUILDER_UPDATE_DOMAIN_NOT_AUTHORIZED = "builder/websites/update-domain-not-authorized",
   BUILDER_UPDATE_DOMAIN_NOT_URL = "builder/websites/update-domain/no-url",
   ANALYTICS_PREMIUM_RESERVED = "analytics/premium-reserved"
+  INDEX_NOW_ERROR_BAD_REQUEST = "index-now/bad-request",
+  INDEX_NOW_ERROR_FORBIDDEN = "index-now/forbidden",
+  INDEX_NOW_ERROR_UNPROCESSABLE = "index-now/unprocessable",
+  INDEX_NOW_ERROR_TOO_MANY_REQUESTS = "index-now/too-many-requests",
+  INDEX_NOW_ERROR_NOT_FOUND = "index-now/not-found",
+  INDEX_NOW_ERROR_KEY_NOT_MATCH = "index-now/key-not-match"
 }
