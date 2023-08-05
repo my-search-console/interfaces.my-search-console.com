@@ -9,4 +9,5 @@ export class WebsiteEntity {
   index_now_key: string | null;
   index_now_installed: boolean;
   is_premium: boolean;
+  is_analytics_activated: boolean;
 }
