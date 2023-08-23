@@ -10,4 +10,5 @@ export class WebsiteEntity {
   index_now_installed: boolean;
   is_premium: boolean;
   is_analytics_activated: boolean;
+  sitemap_updated_at: Date;
 }
