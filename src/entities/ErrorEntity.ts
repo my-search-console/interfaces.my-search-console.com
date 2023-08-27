@@ -6,6 +6,7 @@ export enum ErrorEntity {
   WEBSITE_SEARCH_CONSOLE_DOMAIN_IS_NULL = "website/search-console-domain/is-null",
   GOOGLE_CLOUD_API_KEY_BAD_FORMED = "google/cloud/api-key/bad_formed",
   GOOGLE_CLOUD_API_KEY_PERMISSION_DENIED = "google/cloud/api-key/permission-denied",
+  GOOGLE_CLOUD_API_KEY_INDEXING_API_NOT_ACTIVATED = "google/cloud/api-key/indexing-api-not-activated",
   GOOGLE_CLOUD_API_ACCOUNT_NOT_FOUND = "google/cloud/api-key/account-not-found",
   GOOGLE_AUTH_CREDENTIALS_EXPIRED = "google/auth/credentials/expired",
   GOOGLE_UNKNOWN_ERROR = "google/unknown-error",
