@@ -11,3 +11,10 @@ export class PageEntity {
   updated_at: Date;
   fk_website_id: string;
 }
+
+export class PageIndexingEntity {
+  id: string;
+  url: string;
+  created_at: Date;
+  fk_website_id: string;
+}
