@@ -9,3 +9,4 @@ export * from "./entities/BuilderWebsiteEntity";
 export * from "./entities/BuilderPlanEntity";
 export * from "./entities/WebsiteGoogleCloudApiKeyEntity";
 export * from "./entities/PaymentEntity";
+export * from "./entities/IndexationEntity";
