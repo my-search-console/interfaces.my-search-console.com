@@ -18,6 +18,7 @@ export class PageEntity {
   indexation_state: IndexationType;
   updated_at: Date;
   fk_website_id: string;
+  request_indexing_at: Date | null;
 }
 
 export class PageIndexingEntity {
