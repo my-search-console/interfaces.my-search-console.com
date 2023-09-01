@@ -5,6 +5,14 @@ export enum IndexationType {
   INDEXING = 'indexing'
 }
 
+
+export enum IndexationSourceType {
+  google = 'google',
+  yandex = 'yandex',
+  bing = 'bing',
+  naver = 'naver' 
+}
+  
 export class PageEntity {
   url: string;
   indexation_state: IndexationType;
@@ -17,4 +25,5 @@ export class PageIndexingEntity {
   url: string;
   created_at: Date;
   fk_website_id: string;
+  source: IndexationSourceType;
 }
