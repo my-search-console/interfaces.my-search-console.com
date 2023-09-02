@@ -11,6 +11,6 @@ export type IndexationQueueEntity = {
   status: "queue" | "done";
   sources: Array<"google" | "yandex" | "naver" | "bing">
   created_at: Date;
-  indexed_at: Date;
+  indexed_at: Date | null;
   page_updated_at: Date;
 }
