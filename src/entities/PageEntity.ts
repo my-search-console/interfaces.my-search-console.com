@@ -19,6 +19,7 @@ export class PageEntity {
   updated_at: Date;
   fk_website_id: string;
   request_indexing_at: Date | null;
+  in_sitemap_last_modified_at:  Date | null;
 }
 
 export class PageIndexingEntity {
