@@ -4,11 +4,16 @@ export type IndexationSettingsEntity = {
   sources: Array<"google" | "yandex" | "naver" | "bing">
 }
 
+export enum IndexationQueueStatus {
+    queue = "queue",
+    done = "done"
+}
+
 export type IndexationQueueEntity = {
   id: string;
   fk_website_id: string;
   page: string;
-  status: "queue" | "done";
+  status: IndexationQueueStatus;
   sources: Array<"google" | "yandex" | "naver" | "bing">
   created_at: Date;
   indexed_at: Date | null;
