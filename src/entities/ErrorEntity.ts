@@ -8,6 +8,7 @@ export enum ErrorEntity {
   GOOGLE_CLOUD_API_KEY_PERMISSION_DENIED = "google/cloud/api-key/permission-denied",
   GOOGLE_CLOUD_API_KEY_INDEXING_API_NOT_ACTIVATED = "google/cloud/api-key/indexing-api-not-activated",
   GOOGLE_CLOUD_API_ACCOUNT_NOT_FOUND = "google/cloud/api-key/account-not-found",
+  GOOGLE_UNSUFFICIENT_RIGHTS = "google/unsufficient-rights",
   GOOGLE_AUTH_CREDENTIALS_EXPIRED = "google/auth/credentials/expired",
   GOOGLE_UNKNOWN_ERROR = "google/unknown-error",
   GOOGLE_AUTH_SCOPE_NOT_FOUND = "google/auth/scope-not-found",
