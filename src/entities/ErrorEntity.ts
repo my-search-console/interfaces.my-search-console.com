@@ -32,5 +32,7 @@ export enum ErrorEntity {
   INDEX_NOW_ERROR_UNPROCESSABLE = "index-now/unprocessable",
   INDEX_NOW_ERROR_TOO_MANY_REQUESTS = "index-now/too-many-requests",
   INDEX_NOW_ERROR_NOT_FOUND = "index-now/not-found",
-  INDEX_NOW_ERROR_KEY_NOT_MATCH = "index-now/key-not-match"
+  INDEX_NOW_ERROR_KEY_NOT_MATCH = "index-now/key-not-match",
+  INDEXATION_MANUALLY_NO_WEBSITE_ID_IN_PAGE = "indexation/manually/no-website-in-page",
+  INDEXATION_MANUALLY_NOT_URL = "indexation/manually/not-url"
 }
