@@ -12,4 +12,5 @@ export class WebsiteEntity {
   is_analytics_activated: boolean;
   sitemap_updated_at: Date;
   deleted_at: Date | null;
+  is_public: boolean;
 }
