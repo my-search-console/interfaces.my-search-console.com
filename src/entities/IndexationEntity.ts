@@ -18,4 +18,7 @@ export type IndexationQueueEntity = {
   created_at: Date;
   indexed_at: Date | null;
   page_updated_at: Date;
+  is_indexed: boolean;
+  inspection_google_page: string | null;
+  checked_indexation_state_at: Date | null;
 }
