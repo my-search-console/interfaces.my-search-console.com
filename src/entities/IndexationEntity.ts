@@ -22,3 +22,11 @@ export type IndexationQueueEntity = {
   inspection_google_page: string | null;
   checked_indexation_state_at: Date | null;
 }
+
+export type IndexationGoogleCloudApiKeyEntity = {
+  id: string;
+  fk_website_id: string;
+  google_cloud_api_key: string
+  created_at: Date;
+  updated_at: Date;
+};
