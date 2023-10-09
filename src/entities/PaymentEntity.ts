@@ -2,6 +2,7 @@ export enum PaymentPlansEntity {
     indexation = "indexation",
     keywords = "keywords",
     analytics = "analytics",
+    enterprise = "enterprise",
     all = "all"
 }
 
