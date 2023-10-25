@@ -3,6 +3,7 @@ export enum PaymentPlansEntity {
     keywords = "keywords",
     analytics = "analytics",
     enterprise = "enterprise",
+    newbie = "newbie",
     all = "all"
 }
 
