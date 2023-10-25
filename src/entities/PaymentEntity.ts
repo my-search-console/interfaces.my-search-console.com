@@ -6,6 +6,18 @@ export enum PaymentPlansEntity {
     all = "all"
 }
 
+export type PaymentPricesEntity = {
+  currency: string
+  indexation: {
+    monthly: number
+    yearly: number
+  }
+  enterprise: {
+    monthly: number
+    yearly: number
+  }
+};
+
 export declare type ProductEntity = {
     applied_coupon: Array<string>
     currency: string
