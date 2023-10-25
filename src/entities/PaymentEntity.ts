@@ -60,6 +60,7 @@ export type PaymentEntity = {
     update_url: string;
     created_at: Date;
     paddle_user_id: string;
-    plan: PaymentPlansEntity
+    plan: PaymentPlansEntity;
+    interval: "monthly" | "yearly";
 };
   
