@@ -17,6 +17,10 @@ export type PaymentPricesEntity = {
     monthly: number
     yearly: number
   }
+  newbie: {
+    monthly: number;
+    yearly: number;
+  }
 };
 
 export declare type ProductEntity = {
