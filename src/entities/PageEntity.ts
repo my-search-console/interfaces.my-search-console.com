@@ -5,6 +5,7 @@ export enum IndexationType {
   INDEXING = "indexing",
 
   "server-error-5xx" = "server-error-5xx",
+  "url-unknown" = "url-unknown",
   "redirect-error" = "redirect-error",
   "url-blocked-by-robots.txt" = "url-blocked-by-robots.txt",
   "url-marked-noindex" = "url-marked-noindex",
