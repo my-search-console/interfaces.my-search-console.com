@@ -13,4 +13,7 @@ export class WebsiteEntity {
   sitemap_updated_at: Date;
   deleted_at: Date | null;
   is_public: boolean;
+  indexation_auto_activated: boolean;
+  indexation_auto_activated_sources: string[];
+  api_keys: string[]
 }
