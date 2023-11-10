@@ -37,6 +37,7 @@ export class PageEntity {
   indexation_state: IndexationType;
   updated_at: Date;
   fk_website_id: string;
+  submitted_at: Date | null;
   request_indexing_at: Date | null;
   in_sitemap_last_modified_at: Date | null;
   inspection_google_page: string | null;
