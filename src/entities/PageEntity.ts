@@ -3,7 +3,8 @@ export enum IndexationType {
   INDEXED = "indexed",
   NOT_PROCESSED = "not-processed",
   INDEXING = "indexing",
-  "submitted" = "submitted",
+  SUBMITTED = "submitted",
+  ERROR_UNKNOWN = "error-unknown",
 
   "server-error-5xx" = "server-error-5xx",
   "url-unknown" = "url-unknown",
