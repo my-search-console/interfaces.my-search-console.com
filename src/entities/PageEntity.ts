@@ -6,11 +6,11 @@ export enum IndexationType {
   SUBMITTED = "submitted",
   ERROR_UNKNOWN = "error-unknown",
 
-  "indexation/error/google/cloud/api-key/permission-denied" = "indexation/error/google/cloud/api-key/permission-denied",
-  "indexation/error/google/auth/scope-not-found" = "indexation/error/google/auth/scope-not-found",
-  "indexation/error/google/cloud/api-key/account-not-found" = "indexation/error/google/cloud/api-key/account-not-found",
-  "indexation/error/credentials/not-found" = "indexation/error/credentials/not-found",
-  "google/cloud/api-key/permission-denied" = "google/cloud/api-key/permission-denied",
+  "google/cloud/api-key/permission-denied" = "indexation/error/google/cloud/api-key/permission-denied",
+  "google/auth/scope-not-found" = "indexation/error/google/auth/scope-not-found",
+  "google/cloud/api-key/account-not-found" = "indexation/error/google/cloud/api-key/account-not-found",
+  "credentials/not-found" = "indexation/error/credentials/not-found",
+  "google/cloud/api-key/permission-denied" = "indexation/error/google/cloud/api-key/permission-denied",
  
   "server-error-5xx" = "server-error-5xx",
   "url-unknown" = "url-unknown",
