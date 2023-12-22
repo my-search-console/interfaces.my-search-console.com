@@ -1,4 +1,7 @@
 export enum ErrorEntity {
+  SITEMAP_CHECK_404 = "sitemap/check/404",
+  SITEMAP_CHECK_301 = "sitemap/check/301",
+  SITEMAP_CHECK_500 = "sitemap/check/500",
   SITEMAP_NOT_VALID = "sitemap/update/not-valid",
   SITEMAP_NOT_FOUND = "sitemap/not-found",
   SITEMAP_INVALID = "sitemap/invalid",
