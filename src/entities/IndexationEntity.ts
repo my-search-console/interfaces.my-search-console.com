@@ -1,3 +1,5 @@
+import { IndexationType } from "./PageEntity";
+
 export type IndexationSettingsEntity = {
   pfk_website_id: string;
   indexation_auto_activated: boolean;
@@ -5,8 +7,8 @@ export type IndexationSettingsEntity = {
 }
 
 export enum IndexationQueueStatus {
-    queue = "queue",
-    done = "done"
+  queue = "queue",
+  done = "done"
 }
 
 export type IndexationQueueEntity = {
@@ -19,6 +21,7 @@ export type IndexationQueueEntity = {
   indexed_at: Date | null;
   page_updated_at: Date;
   is_indexed: boolean;
+  indexation_state: IndexationType
   inspection_google_page: string | null;
   checked_indexation_state_at: Date | null;
 }
