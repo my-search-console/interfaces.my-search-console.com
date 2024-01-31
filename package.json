@@ -1,5 +1,5 @@
 {
-  "name": "@foudroyer/interfaces",
+  "name": "@my-search-console/interfaces",
   "version": "0.0.0-development",
   "description": "",
   "private": false,
@@ -23,6 +23,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/foudroyerdotcom/interfaces.foudroyer.com.git"
+    "url": "https://github.com/my-search-console/interfaces.my-search-console.com.git"
   }
 }
