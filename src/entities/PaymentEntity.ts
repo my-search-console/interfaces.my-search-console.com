@@ -1,15 +1,14 @@
 export enum PaymentPlansEntity {
-    indexation = "indexation",
-    keywords = "keywords",
-    analytics = "analytics",
+    starter = "starter",
+    professional = "professional",
     enterprise = "enterprise",
-    newbie = "newbie",
+    free = "free",
     all = "all"
 }
 
 export type PaymentPricesEntity = {
   currency: string
-  indexation: {
+  starter: {
     monthly: number
     yearly: number
   }
@@ -17,7 +16,11 @@ export type PaymentPricesEntity = {
     monthly: number
     yearly: number
   }
-  newbie: {
+  professional: {
+    monthly: number;
+    yearly: number;
+  }
+  free: {
     monthly: number;
     yearly: number;
   }
@@ -36,7 +39,7 @@ export declare type ProductEntity = {
       net: number
       tax: number
     }
-    product_id: number
+    product_id: number | string
     product_title: string
     subscription: {
       frequency: number
