@@ -1,0 +1,28 @@
+{
+  "name": "@my-search-console/interfaces",
+  "version": "0.0.0-development",
+  "description": "",
+  "private": false,
+  "main": "dist/interfaces.js",
+  "scripts": {
+    "build": "rimraf dist && tsc"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "author": "Kevin Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^9.0.2",
+    "@semantic-release/npm": "^9.0.1",
+    "@semantic-release/release-notes-generator": "^10.0.3",
+    "rimraf": "^3.0.2",
+    "semantic-release": "^19.0.2",
+    "typescript": "^4.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/my-search-console/interfaces.my-search-console.com.git"
+  }
+}
